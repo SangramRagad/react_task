@@ -31,7 +31,7 @@ function MyModal() {
 
   const handleClose = () => {
     setOpen(false);
-    history.push(`/${params.id}`);
+    history.push(`/${params.page}`);
   };
 
   const body = (
